@@ -19,20 +19,25 @@
           "standalone": false
         },
         "@schematics/angular:guard": {
-          "skipTests": true
+          "skipTests": true,
+          "flat": true
         },
         "@schematics/angular:interceptor": {
-          "skipTests": true
+          "skipTests": true,
+          "flat": true
         },
         "@schematics/angular:pipe": {
           "skipTests": true,
-          "standalone": false
+          "standalone": false,
+          "flat": true
         },
         "@schematics/angular:resolver": {
-          "skipTests": true
+          "skipTests": true,
+          "flat": true
         },
         "@schematics/angular:service": {
-          "skipTests": true
+          "skipTests": true,
+          "flat": true
         }
       },
       "root": "",
