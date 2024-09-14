@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SplashScreenService } from './@shared/services/splash-screen.service';
 import { BaseComponent } from './@shared/utils/base.component';
-import { Constants } from './@shared/constants/app.constants';
 
 @Component({
   selector: 'app-root',
@@ -24,7 +23,7 @@ export class AppComponent extends BaseComponent implements OnInit {
       window.scrollTo(0, 0);
       setTimeout(() => {
         document.body.classList.add('page-loaded');
-      }, Constants.splashScreenTimeout);
+      }, this.constants.splashScreenTimeout);
     }, 0);
   }
 }

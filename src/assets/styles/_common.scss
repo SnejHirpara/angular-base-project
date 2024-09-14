@@ -1,0 +1,18 @@
+@import './variable';
+
+.text-primary {
+    color: $color-primary;
+}
+
+.text-secondary {
+    color: $color-secondary;
+}
+
+.text-lighter {
+    color: $cadet-grey !important;
+}
+
+.link {
+    color: $color-link;
+    text-decoration: none;
+}

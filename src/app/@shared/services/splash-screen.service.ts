@@ -1,6 +1,6 @@
 import { animate, AnimationBuilder, style } from '@angular/animations';
 import { ElementRef, Injectable } from '@angular/core';
-import { Constants } from '../constants/app.constants';
+import { Constants } from '../constants';
 
 @Injectable({
   providedIn: 'root'

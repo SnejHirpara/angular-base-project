@@ -11,4 +11,4 @@ import { BaseComponent } from './utils/base.component';
   ],
   exports: [BaseComponent]
 })
-export class SplashScreenModule { }
+export class SharedModule { }
