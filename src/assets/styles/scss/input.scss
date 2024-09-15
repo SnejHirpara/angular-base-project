@@ -1,14 +1,30 @@
+@import '../variable';
+
+.input {
+    padding: 7px 10px 10px 10px;
+    background: $alablaster;
+    color: $regent-grey;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+    &::placeholder {
+        color: $regent-grey;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+}
+
 .input-border {
-    border: 1px solid $iron;
-    border-radius: 12px;
+    border: 1px solid $iron !important;
+    border-radius: 12px !important;
 }
 
 .input-border-color {
-    border-color: $iron;
+    border-color: $iron !important;
 }
 
 .input-border-radius {
-    border-radius: 12px;
+    border-radius: 12px !important;
 }
 
 .input-bg {

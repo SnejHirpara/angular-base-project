@@ -7,12 +7,11 @@ import { ShellModule } from './@shell/shell.module';
 import { ButtonModule } from 'primeng/button';
 import { SharedModule } from './@shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
-import { LoginComponent } from './pages/login/login.component';
+import { AuthModule } from './pages/auth/auth.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LoginComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +19,8 @@ import { LoginComponent } from './pages/login/login.component';
     ShellModule,
     ButtonModule,
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]

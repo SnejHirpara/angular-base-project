@@ -8,9 +8,10 @@
 @import "primeng/resources/primeng.min.css";
 
 @import "./assets/styles/common";
+@import "./assets/styles/scss/input.scss";
 
 body {
     position: relative;
     height: 100vh;
-    font-family: Inter;
+    font-family: Poppins;
 }
