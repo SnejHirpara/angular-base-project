@@ -1,0 +1,30 @@
+@import '../variable';
+
+::ng-deep {
+    .p-button {
+        width: 100%;
+        color: $color-white;
+        background: $gable-green;
+        border: 1px solid $gable-green;
+        padding: 9px;
+        font-size: 14px;
+        border-radius: 12px;
+
+        .p-button-label {
+            font-weight: 500;
+        }
+    }
+
+    .p-divider {
+        &.p-divider-horizontal {
+            &:before {
+                border-top-style: solid !important;
+                border-top: 1px $color-geyser;
+            }
+
+            .p-divider-content span {
+                padding: 0 1rem;
+            }
+        }
+    }
+}
