@@ -1,5 +1,14 @@
 @import '../../../../assets/styles/scss/primeng.scss';
 
 ::ng-deep {
-    .tp-auth-option {}
+    .unauthorized-layout {
+        height: calc(100vh - 50px);
+
+        .layout-content {
+            flex: 0 1 auto;
+            margin: auto 0;
+        }
+    }
+
+    .other-auth-option {}
 }
